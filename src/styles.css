@@ -1,0 +1,44 @@
+.container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  row-gap: 48px;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.counter .buttons {
+  display: flex;
+  width: 100%;
+  column-gap: 4px;
+}
+
+.counter .buttons button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+.logged-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.logged {
+  color: #aaa;
+}
